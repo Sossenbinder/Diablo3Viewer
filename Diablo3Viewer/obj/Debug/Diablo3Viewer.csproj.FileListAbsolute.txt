@@ -1,0 +1,11 @@
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Diablo3Viewer.exe.config
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Diablo3Viewer.exe
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Diablo3Viewer.pdb
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.csprojResolveAssemblyReference.cache
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.MainForm.resources
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.Properties.Resources.resources
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.csproj.GenerateResource.Cache
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.exe
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.pdb
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Newtonsoft.Json.dll
+E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Newtonsoft.Json.xml
