@@ -13,8 +13,5 @@ namespace Diablo3Viewer.DataModels
         public string icon { get; set; }
         public string displayColor { get; set; }
         public string tooltipParams { get; set; }
-        public ItemData dyeColor { get; set; }
-        public ItemData transmogItem { get; set; }
-        public List<string> setItemsEquipped { get; set; }
     }
 }

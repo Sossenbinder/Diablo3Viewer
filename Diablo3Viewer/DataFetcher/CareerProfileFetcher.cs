@@ -46,29 +46,7 @@ namespace Diablo3Viewer.DataInterpreters
                 data.paragonLevelSeasonHardcore = json.paragonLevelSeasonHardcore;
                 data.guildName = json.guildName;
 
-                List<HeroData> heroDatas = new List<HeroData>();
-                foreach (var hero in json.heroes)
-                {
-                    HeroData hData = new HeroData();
-                    hData.id = hero.id;
-                    hData.name = hero.name;
-                    hData.className = hero["class"];
-                    hData.gender = hero.gender;
-                    hData.level = hero.level;
-
-                    KillData kill = new KillData();
-                    kill.elites = hero.kills.elites;
-                    hData.kills = kill;
-
-                    hData.paragonLevel = hero.paragonLevel;
-                    hData.hardcore = hero.hardcore;
-                    hData.seasonal = hero.seasonal;
-                    hData.lastUpdated = hero["last-updated"];
-                    hData.dead = hero.dead;
-
-                    heroDatas.Add(hData);
-                }
-                data.heroes = heroDatas;
+                data.heroes = getHeroData(json);
 
                 data.lastHeroPlayed = json.lastHeroPlayed;
                 data.lastUpdated = json.lastUpdated;
@@ -105,6 +83,34 @@ namespace Diablo3Viewer.DataInterpreters
             {
                 return false;
             }
+        }
+
+        private List<HeroData> getHeroData(dynamic json)
+        {
+            List<HeroData> heroDatas = new List<HeroData>();
+            foreach (var hero in json.heroes)
+            {
+                HeroData hData = new HeroData();
+                hData.id = hero.id;
+                hData.name = hero.name;
+                hData.className = hero["class"];
+                hData.gender = hero.gender;
+                hData.level = hero.level;
+
+                KillData kill = new KillData();
+                kill.elites = hero.kills.elites;
+                hData.kills = kill;
+
+                hData.paragonLevel = hero.paragonLevel;
+                hData.hardcore = hero.hardcore;
+                hData.seasonal = hero.seasonal;
+                hData.lastUpdated = hero["last-updated"];
+                hData.dead = hero.dead;
+
+                heroDatas.Add(hData);
+            }
+
+            return heroDatas;
         }
 
         private ArtisanData generateArtisanObject(string slug, int level, int stepCurrent, int stepMax)

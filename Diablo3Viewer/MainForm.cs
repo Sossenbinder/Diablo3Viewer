@@ -13,7 +13,7 @@ namespace Diablo3Viewer
 {
     public partial class MainForm : Form
     {
-        MainFormModel mainForm = new MainFormModel();
+        MainFormController mainForm;
 
         public MainForm()
         {
@@ -21,9 +21,32 @@ namespace Diablo3Viewer
             InitializeComponent();
 
             this.regionBox.DataSource = itemSource;
+
+            mainForm = new MainFormController(this.FormTabs);
         }
 
         private void loginButton_Click(object sender, EventArgs e)
+        {
+            evalInput();
+        }
+
+        private void battletagTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar.Equals((char)Keys.Enter))
+            {
+                evalInput();
+            }
+        }
+
+        private void nameTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar.Equals((char)Keys.Enter))
+            {
+                evalInput();
+            }
+        }
+
+        private void evalInput()
         {
             if (!this.nameTextBox.Text.Equals("") && !this.nameTextBox.Text.Equals(""))
             {
@@ -46,8 +69,7 @@ namespace Diablo3Viewer
                     MessageBoxDefaultButton.Button1
                 );
             }
-
-
         }
+
     }
 }
