@@ -37,7 +37,9 @@ namespace Diablo3Viewer
             cf.fetchData();
             chdata = cf.getModel();
 
-            progressForm.Invoke((MethodInvoker)delegate() { progressForm.Close(); });
+            progressForm.Invoke((MethodInvoker)delegate() {
+                progressForm.Close(); 
+            });
 
             createTabPages();
 

@@ -48,12 +48,23 @@ namespace Diablo3Viewer.TabPageCreators
         {
             foreach (KeyValuePair<string, ArmorPieceData> item in ch.items.items)
             {
-                string url = "";
+                Image itemIcon;
+                string url = "http://media.blizzard.com/d3/icons/"
+                           + "items"
+                           + "/"
+                           + "large"
+                           + "/"
+                           + item.Value.icon
+                           + ".png";
 
-                HttpWebRequest httpWebRequest = (HttpWebRequest)HttpWebRequest.Create(url);
-                HttpWebResponse httpWebReponse = (HttpWebResponse)httpWebRequest.GetResponse();
-                Stream stream = httpWebReponse.GetResponseStream();
-                Image itemIcon = Image.FromStream(stream);
+                try
+                {
+                    HttpWebRequest httpWebRequest = (HttpWebRequest)HttpWebRequest.Create(url);
+                    HttpWebResponse httpWebReponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                    Stream stream = httpWebReponse.GetResponseStream();
+                    itemIcon = Image.FromStream(stream);
+                }
+                catch (WebException) { }
 
                 switch (item.Key)
                 {
@@ -97,6 +108,14 @@ namespace Diablo3Viewer.TabPageCreators
 
                         break;
                 }
+
+                PictureBox picture = new PictureBox
+                {
+                    Name = "pictureBox"+item.Key,
+                    Size = new Size(316, 320),
+                    Location = new Point(1, iCtr * 1100 + 1),
+                    Visible = true
+                };
             }
         }
 

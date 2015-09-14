@@ -24,3 +24,29 @@ E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\witch-doctor_fem
 E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\witch-doctor_male.jpg
 E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\wizard_female.jpg
 E:\VS_workspaces\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\wizard_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Diablo3Viewer.exe.config
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.exe
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.pdb
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Properties\Settings.settings
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\barbarian_female.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\barbarian_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\crusader_female.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\crusader_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\demon-hunter_female.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\demon-hunter_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\monk_female.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\monk_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\witch-doctor_female.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\witch-doctor_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\wizard_female.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Pictures\wizard_male.jpg
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Properties\Settings.Designer.cs
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Diablo3Viewer.exe
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Diablo3Viewer.pdb
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.MainForm.resources
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.ProgressBarDisplay.resources
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.Properties.Resources.resources
+C:\Users\Stefan\Documents\Visual Studio 2013\Projects\Diablo3Viewer\Diablo3Viewer\obj\Debug\Diablo3Viewer.csproj.GenerateResource.Cache
